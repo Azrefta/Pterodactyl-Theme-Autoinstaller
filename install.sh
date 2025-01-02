@@ -59,19 +59,7 @@ check_token() {
   echo -e "${BLUE}[+]               LICENSY RAFATHAR CODE            [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
-  read -r USER_TOKEN
-
-  if [ "$USER_TOKEN" = "skyzodev" ]; then
-    echo -e "${GREEN}AKSES BERHASIL${NC}}"
-  else
-    echo -e "${GREEN}Token Salah! Beli Kode Token Di Skyzopedia${NC}"
-    echo -e "${YELLOW}TELEGRAM : @skyzodev${NC}"
-    echo -e "${YELLOW}WHATSAPP : +6285624297893${NC}"
-    echo -e "${YELLOW}HARGA TOKEN : 25K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}© Skyzopedia${NC}"
-    exit 1
-  fi
+  echo -e "${GREEN}AKSES BERHASIL - Semua pengguna memiliki izin${NC}"
   clear
 }
 
